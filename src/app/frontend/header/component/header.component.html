@@ -1,0 +1,53 @@
+<nav class="navbar navbar-inverse">
+  <div class="container">
+   <div class="row">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" routerLink="/home/index">WebSiteName</a>
+        </div>
+        <!-- cart responsive -->
+        <div class="responsive-navbar">
+            <a href="#"><img src="assets/images/cart.png" alt=""> <p>1+</p></a>
+        </div>
+        <!-- cart responsive -->
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="assets/images/cart.png" alt=""> Cart <p>1+</p></a></li>
+            <li><a routerLink="/home/Sign-Up"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+            <li><a routerLink="/home/Sign-Up"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+            <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown"><img src="assets/images/avatar.png" alt=""> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a routerLink="/home/profile"><i class="fa fa-user"></i> Profile</a></li>
+                <li><a  routerLink="/home/Sign-Up"><i class="fa fa-power-off"></i> Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="search">
+              <input type="text" placeholder="Search here...">
+              <button type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+   </div>
+    
+  </div>
+</nav>
+
+
+
+
+<div class="total-seacrh">
+  <div class="container">
+      <div class="row">
+        <input type="text"  placeholder="Search City/Pincode">
+        <input type="text" class="total-seacrh-left" placeholder="Search Categories">
+        <input type="text" class="total-seacrh-left" placeholder="Search Prodiuct">
+        <button type="button" class="btn btn-default"><i class="fa fa-search"></i>  Search</button>
+      </div>
+  </div>
+</div>

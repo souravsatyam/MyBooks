@@ -1,0 +1,480 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+   @media only screen and (min-width: 980px) and (max-width: 1280px) {
+	.profileupdate input {
+        width: 75%;
+    }
+    .product .btn.btn-default {
+        background: #8e8e8e;
+        color: #fff;
+        padding: 9px 20px;
+        border-radius: 30px;
+        border: 0;
+        transition: .2s ease;
+        font-size: 12px;
+    }
+    .product .btn.btn-success {
+        background: #079b00;
+        color: #fff;
+        padding: 9px 20px;
+        border-radius: 30px;
+        border: 0;
+        transition: .2s ease;
+        font-size: 12px;
+    }
+    .product_last h3 {
+        font-size: 30px;
+    }
+
+    }
+       
+    @media only screen and (min-width: 768px) and (max-width: 979px) {
+        .profileupdate input {
+            width: 68%;
+        }
+        .search {
+            width: 250px;
+            margin-right: 10px;
+        }
+        .navbar.navbar-inverse ul.nav.navbar-nav.navbar-right li a {
+            color: #fff;
+            font-size: 13px;
+            position: relative;
+        }
+        .navbar.navbar-inverse ul.nav.navbar-nav.navbar-right li a img {
+            height: 13px;
+        }
+        .search input {
+            width: 206px;
+            float: left;
+            border: 0;
+            background: transparent;
+            padding: 8px 10px;
+            font-size: 15px;
+        }
+        .product img {
+            width: 100%;
+            height: 130px;
+            border-bottom: 1px solid #ddd;
+        }
+        .product .btn {
+            width: 90% !important;
+            margin: 3px 5%;
+            font-size: 12px;    
+        }
+        .productinner a {
+            font-size: 10px;
+        }
+        .product_last h3 {
+            font-size: 24px;
+        }
+        .product_last {
+            height: 355px;
+            padding-top: 100px;
+        }
+        .cat_1 label.btn.btn-default {
+            padding: 0px 2px;
+            border-radius: 0;
+            margin-right: 5px;
+        }
+        .cat_1 p {
+            float: left;
+            margin: 0;
+            line-height: 20px;
+            font-size: 12px;
+        }
+        .products_page .panel-body h5
+        {
+          color: #000;
+          font-size: 14px;
+        }
+        .products_page .panel-heading  h4 a
+        {
+            font-size: 14px;
+        }
+        .profilecardpoic
+        {
+          width: 100px;
+          height: 100px;
+        
+        }
+
+    }
+    
+    
+    
+    @media only screen and (max-width: 767px) {
+        .myprofiletopic span {
+            width: 300px;
+        }
+        .profilecardpoic
+        {
+          width: 100px;
+          height: 100px;
+        
+        }
+        .profileupdate input {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .profileupdate .btn.btn-success {
+            margin-bottom: 0;
+            float: left;
+            padding: 5px 20px;
+            font-size: 12px;    
+        }
+        .profileedit {
+            width: 100%;
+            float: left;
+            padding: 20px 10px;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 10px #ddd;
+            margin: 30px 0;
+        }
+        .profileedit .btn.btn-success {
+            background: #089c01;
+            border: 1px solid #089c01;
+            padding: 10px 35px;
+            margin: 10px auto;
+        }
+        .profilecard h4
+        {
+            margin-top: 10px;
+        }
+        .profilecard a 
+        {
+            font-size: 12px;
+        }
+        .navbar-toggle {
+            position: relative;
+            float: right;
+            padding: 9px 10px;
+            margin-top: 8px;
+            margin-right: 15px;
+            margin-bottom: 8px;
+            background-color: transparent;
+            background-image: none;
+            border: 0;
+            border-radius: 4px;
+            background: transparent
+        }
+        .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+        {
+            background-color: transparent
+        }
+        .search {
+            width: 100%;
+            float: right;
+            background: #fff;
+            padding: 2px;
+            border-radius: 30px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 0;
+        }
+        .search input {
+            width: 250px;
+            float: left;
+            border: 0;
+            background: transparent;
+            padding: 8px 10px;
+            font-size: 15px;
+        }
+        .slider .carousel-caption {
+            position: absolute;
+            top: 50px;
+            background: rgba(0, 0,0,0.8);
+            left: 100px;
+            padding: 20px;
+            width: 500px;
+            height: auto;
+            right: inherit;
+            bottom: inherit;
+            display: none;
+        }
+        .slider .carousel-inner .item img {
+            width: 100%;
+            float: left;
+            max-height: inherit;
+            height: auto;
+        }
+        .slider .left.carousel-control span, .slider .right.carousel-control span {
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            background: #fff;
+            line-height: 25px;
+            border-radius: 50%;
+            position: absolute;
+            color: #000;
+            text-shadow: none;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            transition: .2s ease;
+            font-size: 9px;
+        }
+        .total-seacrh input {
+            float: left;
+            width: 50%;
+            background: transparent;
+            padding: 12px 10px;
+            border: 0;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            font-size: 12px;
+        }
+        .total-seacrh .btn.btn-default {
+            background: #c2c2c2;
+            width: 50%;
+            float: left;
+            border: 0;
+            padding: 12px 4px;
+            border-radius: 0;
+            transition: .2s ease;
+        }
+        .product_last {
+            height: auto;
+            padding-top: 59px;
+            padding: 50px 0;
+        }
+        .footermenu {
+            float: left;
+            width: 100%;
+        }
+        .footermenu a {
+            float: left;
+            margin-right: 15px;
+            color: #fff;
+            font-size: 12px;
+            line-height: 35px;
+            text-decoration: none;
+            transition: .2s ease;
+        }
+        .footer {
+            width: 100%;
+            float: left;
+            background: #2f2f2f;
+            padding: 15px 0;
+        }
+        .responsive-navbar {
+            display: block;
+            float: right;
+            position: absolute;
+            top: 12px;
+            right: 60px;
+        }
+        .responsive-navbar
+        {
+            display: block
+        }
+        .responsive-navbar p {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: -8px;
+            right: -11px;
+            background: #2f2f2f;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 18px;
+            color: #fff;
+            font-size: 11px;
+        }
+        .total-seacrh
+        {
+            border: 0;
+        }
+        .preview-thumbnail.nav-tabs li img {
+            height: 50px;
+        }
+        .butoons .btn.bgbtn {
+            width: 49%;
+            font-size: 11px;
+        }
+        .butoons .btn.btn-primary {
+            padding: 9px 10px;
+        }
+        .butoons .btn.btn-success {
+            padding: 9px 10px;
+        }
+        .butoons .btn.btn-primary, .butoons .btn.btn-success, .butoons .btn.btn-default {
+            font-size: 11px;
+            padding: 9px 10px;
+        }
+        .rightsectiondescrptn h4 {
+            font-size: 16px;
+        }
+        .rightsectiondescrptn ol {
+            font-size: 11px;
+            margin-top: 10px;
+        }
+        .sellerdetails {
+            width: 100%;
+            float: left;
+            margin-top: 0;
+            padding: 10px 8px;
+            position: relative;
+        }
+        .sellerdetails img {
+            width: 80px;
+            height: 80px;
+            float: none;
+            border-radius: 50%;
+            border: 1px solid #ddd;
+            padding: 2px;
+            position: inherit;
+            top: 0;
+            left: 0;
+            display: block;
+            margin: auto;
+        }
+        .sellerdetails h4 {
+            padding-left: 0;
+        }
+        .sellerdetails p {
+            float: left;
+            color: #000;
+            width: 100%;
+            padding-left: 0;
+        }
+        .sellerdetails .btn.btn-default {
+            float: none;
+            background: #000;
+            padding: 10px 30px;
+            color: #fff;
+            border-radius: 30px;
+            border: 0;
+            margin-top: 20px;
+            transition: .2s ease;
+            display: block;
+            margin: auto;
+            
+        }
+        .rightsectiondescrptn input {
+            width: 100%;
+            float: left;
+            padding: 5px 10px;
+            color: #000;
+            border: 1px solid #ddd;
+            margin-top: 15px;
+            background: #fff;
+            font-size: 11px;
+        }
+        .rightsectiondescrptn textarea {
+            width: 100%;
+            float: left;
+            padding: 5px 10px;
+            color: #000;
+            border: 1px solid #ddd;
+            margin-top: 15px;
+            background: #fff;
+            font-size: 11px;
+        }
+        .rightsectiondescrptn .btn.btn-success
+        {
+            font-size: 11px;
+        }
+        .rewviewsection h4 {
+            font-size: 16px;
+        }
+        .customerreview img {
+            position: inherit;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid #ddd;
+            padding: 2px;
+            margin: auto;
+            display: block;
+        }
+        .customerreview h3 {
+            padding: 0;
+        }
+        .customerreview p {
+            padding-left: 0;
+            font-size: 11px;
+        }
+        .customerreview h5 {
+            margin: 0;
+            float: left;
+            color: #000;
+            padding-left: 0;
+            font-size: 12px;
+            line-height: 20px;
+            margin-top: 20px;
+            width: 150px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .customerreview a  
+        {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .card {
+            margin-top: 20px;
+            line-height: 1.5em;
+            margin-bottom: 20px;
+        }
+        .signup {
+            margin: 20px auto;
+            border: 0;
+        }
+        .signup .tab-content {
+            width: 100%;
+            float: left;
+            padding: 30px 15px;
+        }
+        .signup .tab-content h4 {
+            float: left;
+            margin: 0;
+            width: 100%;
+            float: left;
+            font-size: 11px;
+            margin-top: 10px;
+            color: #666;
+        }
+        .signup .tab-content label {
+            font-size: 11px;
+            margin: 0;    
+        }
+        .signup .tab-content input {
+            padding: 8px 0;
+            font-size: 12px;
+        }
+        .signup .tab-content .btn.btn-success {
+            border: 0;
+            border-radius: 30px;
+            padding: 6px 35px;
+            font-size: 13px;
+            background: #079b00;
+            display: block;
+            margin: 20px auto 0 auto;
+        }   
+        .signup .tab-content p {
+            float: left;
+            margin: 0;
+            font-size: 11px;
+            color: #000;
+            line-height: 22px;
+        }
+        
+
+    }
+
+    
+    @media only screen and (max-width: 479px) {
+    
+       
+      
+    }
