@@ -13,15 +13,14 @@ import { AppRouting } from './router/app/app.router';
  import { ProductsDescriptionModule } from './frontend/products-description/products-description.module';
  import { SignupModule } from './frontend/signup/signup.module';
  import { ProfileModule } from './frontend/profile/profile.module';
+ import { MyCartModule } from './frontend/my-cart/my-cart.module';
 
+ 
 
-
-
-
-
-
+ import { MatCardModule , MatButtonModule } from '@angular/material';
  import {FormsModule, ReactiveFormsModule} from '@angular/forms';
  import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+ import {MatInputModule} from '@angular/material/input';
  
  
  
@@ -48,6 +47,10 @@ import { AppRouting } from './router/app/app.router';
     ProductsDescriptionModule,
     SignupModule,
     ProfileModule,
+    MatCardModule,
+    MatButtonModule,
+    MatInputModule,
+    MyCartModule
 
   
     

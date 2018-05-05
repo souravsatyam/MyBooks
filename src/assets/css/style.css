@@ -249,11 +249,11 @@ background: #eee;
   text-align: center;
   margin: 15px 0;
 }
-.product img 
-{
-  width: 100%;
-  height: 200px;
-  border-bottom: 1px solid #ddd;
+.product img {
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid #ddd;
+	padding: 3px;
 }
 .product h4 
 {
@@ -284,7 +284,8 @@ background: #eee;
   padding: 9px 30px;
   border-radius: 30px;
   border: 0;
-  transition: .2s ease
+  transition: .2s ease;
+  line-height: inherit
 }
 .product  .btn.btn-default:hover
 {
@@ -297,7 +298,9 @@ background: #eee;
   padding: 9px 30px;
   border-radius: 30px;
   border: 0;
-  transition: .2s ease
+  transition: .2s ease;
+  line-height: inherit
+  
 }
 .product  .btn.btn-success:hover
 {
@@ -347,10 +350,17 @@ background: #eee;
   font-size: 40px;
 }
 .product_last {
-  height: 380px;
-  padding-top: 100px;
+	height: 441px;
+	padding-top: 80px;
 }
-
+.product_last img 
+{
+  width: 120px;
+  height: 105px;
+  display: block;
+  margin: auto;
+  border: 0
+}
 .footer
 {
   width: 100%;
@@ -1285,4 +1295,366 @@ margin-bottom: 50px;}
 .profileedit .btn.btn-success:hover
 {
   background: #48eb41
+}
+
+.mat-card {
+	padding: 0 !important;
+}
+.mat-card-header-text {
+	width: 100% !important;
+	float: left !important  ;
+}
+.mat-card-avatar {
+	display: none;
+}
+.mat-card-title {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 10px;
+  color: #079b00;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.mat-card-subtitle {
+	width: 100%;
+	float: left;
+  text-align: center;
+  color: #666;
+  margin-bottom: 0;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.mat-card-actions {
+  padding: 0 !important;
+  margin: 0 !important
+}
+.mat-card-content p {
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  width: 100%;
+  padding: 0 10px;
+}
+
+.mycart 
+{
+  width: 100%;
+  float: left;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px #999;
+  margin: 40px 0;
+}
+.mycart h4 
+{
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.mycart .table-responsive
+{
+  width: 100%;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.mycart .table-responsive tbody tr td:nth-child(1){
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  
+  width: 150px;
+}
+.mycart .table-responsive tbody tr td:nth-child(1) img 
+{
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  height: 80px;
+  display: block;
+  margin:0 auto 15px auto;
+}
+.mycart .table-responsive tbody tr td:nth-child(1) a  
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  color: #ddd;
+  transition: .2s ease;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  transition: .2s ease;
+}
+.mycart .table-responsive tbody tr td:nth-child(1) a:hover 
+{
+  color: #044f00;
+  border: 1px solid #044f00;
+  
+}
+.mycart .table-responsive tbody tr td:nth-child(1) input
+{
+  width: 40px;
+  margin: 0 5px;
+  height: 30px;
+  padding: 5px;
+  line-height: 20px;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #000;
+}
+.mycart .table-responsive tbody tr td:nth-child(2){
+  text-align: left;
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.mycart .table-responsive tbody tr td:nth-child(2) a  
+{
+  float: left;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  width: 100%;
+  text-decoration: none;
+  color: #079b00;
+  font-size: 17px;
+  transition: .2s ease;
+}
+.mycart .table-responsive tbody tr td:nth-child(2) a:hover 
+{
+  color: #000;
+  text-decoration: none;
+}
+.mycart .table-responsive tbody tr td:nth-child(2) span ,.mycart .table-responsive tbody tr td:nth-child(2) small
+{
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 11px;
+}
+.mycart .table-responsive tbody tr td:nth-child(2) h5 
+{
+  width: 100%;
+  float: left;
+  color: #079b00;
+  margin: 0;
+  font-size: 20px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.mycart .table-responsive tbody tr td:nth-child(2) h5 span, .mycart .table-responsive tbody tr td:nth-child(2) h5 small
+{
+  color: #666;
+  width: auto;
+  margin: 0 5px;
+  float: none;
+}
+.mycart .table-responsive tbody tr td:nth-child(2) h5 small
+{
+  text-decoration: line-through
+}
+
+.mycart .table-responsive tbody tr td:nth-child(3){
+  text-align: left;
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.mycart .table-responsive tbody tr td:nth-child(3) p
+{
+  width: 100%;
+  float: left;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  transition: .2s ease;
+}
+.mycart .table-responsive tbody tr td:nth-child(3) p span
+{
+  width: 100%;
+  float: left;
+  color: #666;
+  font-size: 11px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.mycart .table-responsive tbody tr td:nth-child(3) .btn.btn-default
+{
+  float: left;
+  border: 0;
+  background: #434343;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.mycart_2
+{
+  width: 100%;
+  float: left;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px #999;
+  margin: 40px 0;
+}
+.mycart_2 h4 
+{
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 15px 20px;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.priceinner
+{
+  width: 100%;
+  float: left;
+  padding: 15px 20px;
+}
+.priceinner.priceinner_2
+{
+  width: 100%;
+  float: left;
+  padding: 15px 20px;
+  border-bottom: 1px dashed #ddd;
+}
+.priceinner .leftdetail
+{
+  float: left;
+  width: 170px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.priceinner .rightdetail
+{
+  float: right;
+  width: auto;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.priceinner h5.leftdetail
+{
+  float: left;
+  width: 170px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.priceinner h5.rightdetail
+{
+  float: right;
+  width: auto;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  
+}
+.priceinner span
+{
+  float: left;
+  width: 100%;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: #079b00;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  
+}
+.rightdetail_green.rightdetail
+{
+  color: #079b00;
+  text-decoration: none;
+}
+
+.priceinner .btn.btn-default
+{
+  float: left;
+  width: 50%;
+  border: 0;
+  background: #434343;
+  color: #fff;
+  font-size: 13px;
+  transition: .2s ease;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 2px 2px 5px #999;
+  
+  
+}
+.priceinner .btn.btn-default:hover 
+{
+  background: #000;
+}
+.priceinner .btn.btn-success
+{
+  float: left;
+  width: 48%;
+  border: 0;
+  background: #079b00;
+  color: #fff;
+  font-size: 13px;
+  transition: .2s ease;
+  margin: 0;
+  text-transform: uppercase;
+  border-radius: 0;
+  margin-left: 5px;
+  box-shadow: 2px 2px 5px #999;
+  
+}
+.priceinner .btn.btn-success:hover 
+{
+  background: #044f00;
 }

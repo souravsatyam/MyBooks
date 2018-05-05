@@ -28,12 +28,65 @@
     .product_last h3 {
         font-size: 30px;
     }
-
+    .mycart .table-responsive tbody tr td:nth-child(1) {
+        display: block;
+    }
+    .priceinner .leftdetail {
+        width: 150px;
+    }
+    .priceinner span {
+        font-size: 12px;
+    }
+    .priceinner h5.leftdetail {
+        float: left;
+        width: 130px;
+    }
+    .priceinner .btn.btn-default, .priceinner .btn.btn-success  {
+        font-size: 10px;
+    }
     }
        
     @media only screen and (min-width: 768px) and (max-width: 979px) {
+        .priceinner .leftdetail {
+            width: 130px;
+        }
+        .priceinner span {
+            float: left;
+            width: 100%;
+            /* white-space: nowrap; */
+            /* overflow: hidden; */
+            text-overflow: ellipsis;
+            color: #079b00;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+        }
+        .priceinner .btn.btn-default,  .priceinner .btn.btn-success {
+           margin: 0;
+            width: 100%;
+           
+            margin-bottom: 5px;
+        }
+        .mycart .table-responsive tbody tr td:nth-child(1) {
+            display: block;
+        }
+        .priceinner span {
+            font-size: 12px;
+        }
+        .priceinner h5.leftdetail {
+            float: left;
+            width: 130px;
+        }
         .profileupdate input {
             width: 68%;
+        }
+        .product .btn.btn-default { 
+            margin-bottom: 5px;
+        }
+        .product_last {
+            height: 402px;
+            padding-top: 30px;
         }
         .search {
             width: 250px;
@@ -199,7 +252,7 @@
             width: 100%;
             float: left;
             max-height: inherit;
-            height: auto;
+            height: 200px;
         }
         .slider .left.carousel-control span, .slider .right.carousel-control span {
             width: 25px;
@@ -469,7 +522,43 @@
             line-height: 22px;
         }
         
+        .products_page .panel-group {
+            width: 100%;
+            float: left;
+            margin: 0;
+        }
+        .products_page 
+        {
+            margin-bottom: 0
+        }
+        .mycart .table-responsive {
+            width: 100%;
+            float: left;
+            font-family: 'Roboto', sans-serif;
+            border: 0;
+        }
+        .priceinner .leftdetail {
+            width: 160px;
+        }
 
+        .priceinner h5.leftdetail {
+            width: 149px;
+        }
+        .priceinner .btn.btn-default,  .priceinner .btn.btn-success {
+            float: left;
+            width: 100%;
+           margin: 0;
+           margin-bottom: 5px;
+           font-size: 15px;
+        }
+        .mycart_2 {
+            margin: 20px 0;
+            margin-top: 0;
+        }
+        .mycart 
+        {
+            margin: 20px 0;
+        }
     }
 
     

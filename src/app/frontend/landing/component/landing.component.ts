@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $:any;
 
 @Component({
   selector: 'app-landing',
@@ -10,6 +11,7 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+        $("#myCarousel").carousel({interval: 5000});
   }
 
 }
